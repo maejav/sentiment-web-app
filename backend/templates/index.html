@@ -1,0 +1,42 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sentiment Analysis</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Sentiment Analysis</h1>
+    <textarea id="textInput" placeholder="Type something..."></textarea>
+    <button onclick="analyzeSentiment()">Analyze</button>
+    <div id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+ -->
+ <DOCTYPE html>
+  <!-- <!DOCTYPE html> is a declaration, not a tag — it tells the browser this is an HTML5 document. -->
+ 
+ <!-- It doesn't need a closing tag like </DOCTYPE> -->
+ <html lang="en">
+ <head>
+ <meta charset="UTF-8">
+ <title>Sentiment Analysis</title>    
+ </head>
+ <body>
+     <div class="container">
+         <h1>Sentiment Analysis</h1>
+         <textarea id="textInput" placeholder="Type Something...."></textarea>
+         <button onclick="analyzeSentiment()">Analyze</button>
+         <div id="result"></div>
+     </div>
+    
+      
+ <script src="{{ url_for('static', filename='script.js') }}"></script>
+ <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+ 
+ </body>    
+ </html>
